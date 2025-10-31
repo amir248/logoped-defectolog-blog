@@ -13,3 +13,4 @@ plugins:
 url: "https://blog.fonolog.ru"
 include:
   - favicon.ico
+  - robots.txt
