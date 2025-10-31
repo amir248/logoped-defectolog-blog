@@ -1,7 +1,7 @@
 title: "Блог логопеда Татьяны Павловны"
 description: "Советы по развитию речи у детей — блог логопеда-дефектолога в Санкт-Петербурге."
-baseurl: "/blog"
-url: "https://fonolog.ru"
+baseurl: "/"
+url: "https://blog.fonolog.ru"
 theme: minima
 markdown: kramdown
 plugins:
