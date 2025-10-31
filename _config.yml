@@ -7,3 +7,7 @@ markdown: kramdown
 plugins:
   - jekyll-seo-tag
 permalink: /:title/
+plugins:
+  - jekyll-sitemap
+
+url: "https://blog.fonolog.ru"
