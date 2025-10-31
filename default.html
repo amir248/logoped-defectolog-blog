@@ -3,12 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  {%- comment -%}
-  ✅ Улучшенный заголовок:
-  — На главной странице показываем только site.title
-  — На других страницах: page.title | site.title
-  {%- endcomment -%}
+
   <title>
     {% if page.url == "/" %}
       {{ site.title }}
@@ -19,14 +14,10 @@
 
   {%- seo -%}
 
-  {%- comment -%}
-  ✅ Favicon и иконки для устройств
-  — Положи favicon.ico в корень репозитория
-  — При желании добавь PNG-варианты
-  {%- endcomment -%}
+
   <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
-  <link rel="icon" type="image/png" href="{{ '/favicon-32x32.png' | relative_url }}" sizes="32x32">
-  <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}">
+  <link rel="icon" type="image/png" href="{{ '/img/logo.png' | relative_url }}" sizes="32x32">
+  <link rel="apple-touch-icon" href="{{ '/img/logo.png' | relative_url }}">
 
   <style>
     body {
